@@ -1,0 +1,51 @@
+﻿.nested-circle-spinner {
+  width: 100px;
+  height: 100px;
+}
+.nested-circle-spinner > span,
+.nested-circle-spinner > span:before,
+.nested-circle-spinner > span:after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nested-circle-spinner > span {
+  width: 100px;
+  height: 100px;
+  position:relative;
+  top: 0;
+  left: 0;
+  border-left-color: transparent;
+  animation: effect-2 2s infinite linear;
+}
+.nested-circle-spinner > span:before {
+  width: 75%;
+  height: 75%;
+  border-right-color: transparent;
+}
+.nested-circle-spinner > span:after {
+  width: 50%;
+  height: 50%;
+  border-bottom-color: transparent;
+}
+@-webkit-keyframes effect-2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes effect-2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

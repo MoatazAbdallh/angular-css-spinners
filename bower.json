@@ -1,0 +1,27 @@
+{
+  "name": "angular-spinners",
+  "version": "1.0.1",
+  "homepage": "https://github.com/mo3taz-abdallh/angular-spinners",
+  "authors": [
+    "Moataz Abdallh <moataz.abdallh@gmail.com>"
+  ],
+  "description": "A collection of loading indicators animated with CSS through angular directives.",
+    "dependencies": {
+    "angular": "~1.4.2"
+  },
+  "main": "dist/",
+  "keywords": [
+    "angular",
+    "angular-spinkit",
+    "angular-spinner",
+    "spinkit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
