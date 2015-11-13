@@ -1,15 +1,15 @@
 {
-  "name": "angular-spinners",
-  "version": "1.0.1",
-  "homepage": "https://github.com/mo3taz-abdallh/angular-spinners",
-  "authors": [
-    "Moataz Abdallh <moataz.abdallh@gmail.com>"
-  ],
-  "description": "A collection of loading indicators animated with CSS through angular directives.",
+    "name": "angular-spinners",
+    "version": "1.0.1",
+    "homepage": "https://github.com/mo3taz-abdallh/angular-spinners",
+    "authors": [
+        "Moataz Abdallh <moataz.abdallh@gmail.com>"
+    ],
+    "description": "A collection of loading indicators animated with CSS through angular directives.",
     "dependencies": {
-    "angular": "~1.4.2"
-  },
-  "main": "dist/",
+        "angular": "~1.4.2"
+    },
+    "main": [ "dist/angular-css-spinners.min.js","dist/angular-css-spinners.css"],
   "keywords": [
     "angular",
     "angular-spinkit",
