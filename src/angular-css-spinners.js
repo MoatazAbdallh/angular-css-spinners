@@ -15,4 +15,9 @@ angular.module('angular-css-spinners').directive('nestedCircleSpinner', function
   };
 });
 
-
+angular.module('angular-css-spinners').directive('cubeSpinner', function () {
+  return {
+    restrict: 'EA',
+    templateUrl: 'src/templates/cubespinner.html'
+  };
+});
